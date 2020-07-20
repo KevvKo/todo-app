@@ -20,7 +20,6 @@
 /home/kevin/websites/html/toDoApp/obj/Debug/netcoreapp3.1/toDoApp.TagHelpers.output.cache
 /home/kevin/websites/html/toDoApp/obj/Debug/netcoreapp3.1/toDoApp.RazorCoreGenerate.cache
 /home/kevin/websites/html/toDoApp/obj/Debug/netcoreapp3.1/Razor/Pages/Error.cshtml.g.cs
-/home/kevin/websites/html/toDoApp/obj/Debug/netcoreapp3.1/Razor/Pages/Index.cshtml.g.cs
 /home/kevin/websites/html/toDoApp/obj/Debug/netcoreapp3.1/Razor/Pages/Privacy.cshtml.g.cs
 /home/kevin/websites/html/toDoApp/obj/Debug/netcoreapp3.1/Razor/Pages/Shared/_Layout.cshtml.g.cs
 /home/kevin/websites/html/toDoApp/obj/Debug/netcoreapp3.1/Razor/Pages/Shared/_ValidationScriptsPartial.cshtml.g.cs
@@ -163,3 +162,9 @@
 /home/kevin/websites/html/toDoApp/bin/Debug/netcoreapp3.1/runtimes/unix/lib/netcoreapp2.0/System.Runtime.Caching.dll
 /home/kevin/websites/html/toDoApp/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp2.0/System.Runtime.Caching.dll
 /home/kevin/websites/html/toDoApp/bin/Debug/netcoreapp3.1/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+/home/kevin/websites/html/toDoApp/obj/Debug/netcoreapp3.1/Razor/Pages/ToDos/Create.cshtml.g.cs
+/home/kevin/websites/html/toDoApp/obj/Debug/netcoreapp3.1/Razor/Pages/ToDos/Delete.cshtml.g.cs
+/home/kevin/websites/html/toDoApp/obj/Debug/netcoreapp3.1/Razor/Pages/ToDos/Details.cshtml.g.cs
+/home/kevin/websites/html/toDoApp/obj/Debug/netcoreapp3.1/Razor/Pages/ToDos/Edit.cshtml.g.cs
+/home/kevin/websites/html/toDoApp/obj/Debug/netcoreapp3.1/Razor/Pages/ToDos/Index.cshtml.g.cs
+/home/kevin/websites/html/toDoApp/obj/Debug/netcoreapp3.1/Razor/Pages/Index.cshtml.g.cs
