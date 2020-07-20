@@ -1,5 +1,5 @@
 {
-  "FilePath": "/home/kevin/websites/html/todo-app/TodoApp.csproj",
+  "FilePath": "/home/kevin/websites/html/toDoApp/toDoApp.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "3.0",
@@ -20518,7 +20518,68 @@
     ],
     "CSharpLanguageVersion": 800
   },
-  "RootNamespace": "TodoApp",
-  "Documents": [],
+  "RootNamespace": "toDoApp",
+  "Documents": [
+    {
+      "FilePath": "/home/kevin/websites/html/toDoApp/Pages/ToDos/Delete.cshtml",
+      "TargetPath": "Pages\\ToDos\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/kevin/websites/html/toDoApp/Pages/ToDos/Details.cshtml",
+      "TargetPath": "Pages\\ToDos\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/kevin/websites/html/toDoApp/Pages/ToDos/Index.cshtml",
+      "TargetPath": "Pages\\ToDos\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/kevin/websites/html/toDoApp/Pages/Shared/_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/kevin/websites/html/toDoApp/Pages/ToDos/Edit.cshtml",
+      "TargetPath": "Pages\\ToDos\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/kevin/websites/html/toDoApp/Pages/Index.cshtml",
+      "TargetPath": "Pages\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/kevin/websites/html/toDoApp/Pages/_ViewImports.cshtml",
+      "TargetPath": "Pages\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/kevin/websites/html/toDoApp/Pages/ToDos/Create.cshtml",
+      "TargetPath": "Pages\\ToDos\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/kevin/websites/html/toDoApp/Pages/Shared/_Layout.cshtml",
+      "TargetPath": "Pages\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/kevin/websites/html/toDoApp/Pages/Error.cshtml",
+      "TargetPath": "Pages\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/kevin/websites/html/toDoApp/Pages/Privacy.cshtml",
+      "TargetPath": "Pages\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/kevin/websites/html/toDoApp/Pages/_ViewStart.cshtml",
+      "TargetPath": "Pages\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    }
+  ],
   "SerializationFormat": "0.2"
 }

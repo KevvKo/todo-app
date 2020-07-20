@@ -1,6 +1,14 @@
-public class ToDoItem{
-    public long Id { get; set;}
-    public string name {get; set;}
+using System;
+using System.ComponentModel.DataAnnotations;
 
-    public bool IsComplete { get; set;} 
+namespace toDoApp.Models{
+    public class ToDoItem{
+        public int id { get; set; }
+        public string name { get; set; }
+        public bool isDone {get; set;  }
+        
+        [DataType(DataType.Date)]
+        public DateTime creationDate { get; set; }
+
+    }
 }
