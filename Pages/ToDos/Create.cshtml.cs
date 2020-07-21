@@ -39,7 +39,7 @@ namespace toDoApp.Pages.ToDos
             _context.ToDoItem.Add(ToDoItem);
             await _context.SaveChangesAsync();
 
-            return RedirectToPage("./Index");
+            return RedirectToPage("../Index");
         }
     }
 }

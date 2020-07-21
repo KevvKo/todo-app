@@ -1,10 +1,21 @@
 ﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */
 
-a.navbar-brand {
+nav.navbar{
+  background-color: #242239;
+}
+
+a.navbar-brand, a.nav-link {
   white-space: normal;
   text-align: center;
   word-break: break-all;
+  color: white;
+
+}
+
+a.navbar-brand:hover, a.nav-link:hover{
+  color: #CBCBCB;
+  transition: 0.4s;
 }
 
 /* Provide sufficient contrast against white background */
@@ -68,4 +79,47 @@ body {
   width: 100%;
   white-space: nowrap;
   line-height: 60px; /* Vertically center the text there */
+}
+
+
+/* styling for the privacy site
+--------------------------------------------------*/
+.rules{
+  font-weight: bold;
+}
+
+/* styling for the index site
+--------------------------------------------------*/
+.form{
+  display: none;
+}
+label{
+  font-weight: bold;
+}
+
+input{
+  height: calc(1.5em + .75rem + 2px);
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  transition: border-color .15s;
+  margin-right: 10px;
+}
+
+.addTask{
+  display: inline-block;
+}
+
+.addTask img{
+  filter: invert(10%) sepia(39%) saturate(797%) hue-rotate(206deg) brightness(97%) contrast(90%);
+}
+
+.addTask:hover{
+  cursor: pointer;
 }

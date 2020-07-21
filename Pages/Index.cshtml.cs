@@ -1,25 +1,29 @@
-﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.RazorPages;
-using Microsoft.Extensions.Logging;
 
-namespace toDoApp.Pages
+using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.EntityFrameworkCore;
+
+using toDoApp.Models;
+
+namespace toDoApp.Pages.ToDos
 {
     public class IndexModel : PageModel
     {
-        private readonly ILogger<IndexModel> _logger;
+        private readonly toDoApp.Data.ToDoContext _context;
 
-        public IndexModel(ILogger<IndexModel> logger)
+        public IndexModel(toDoApp.Data.ToDoContext context)
         {
-            _logger = logger;
+            _context = context;
         }
 
-        public void OnGet()
-        {
+        public IList<ToDoItem> ToDoItem { get;set; }
 
+        public async Task OnGetAsync()
+        {
+            ToDoItem = await _context.ToDoItem.ToListAsync();
         }
+
     }
 }

@@ -66,7 +66,7 @@ namespace toDoApp.Pages.ToDos
                 }
             }
 
-            return RedirectToPage("./Index");
+            return RedirectToPage("../Index");
         }
 
         private bool ToDoItemExists(int id)

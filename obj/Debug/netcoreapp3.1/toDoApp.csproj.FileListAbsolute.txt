@@ -166,5 +166,4 @@
 /home/kevin/websites/html/toDoApp/obj/Debug/netcoreapp3.1/Razor/Pages/ToDos/Delete.cshtml.g.cs
 /home/kevin/websites/html/toDoApp/obj/Debug/netcoreapp3.1/Razor/Pages/ToDos/Details.cshtml.g.cs
 /home/kevin/websites/html/toDoApp/obj/Debug/netcoreapp3.1/Razor/Pages/ToDos/Edit.cshtml.g.cs
-/home/kevin/websites/html/toDoApp/obj/Debug/netcoreapp3.1/Razor/Pages/ToDos/Index.cshtml.g.cs
 /home/kevin/websites/html/toDoApp/obj/Debug/netcoreapp3.1/Razor/Pages/Index.cshtml.g.cs
