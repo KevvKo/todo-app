@@ -15,7 +15,7 @@ a.navbar-brand, a.nav-link {
 
 a.navbar-brand:hover, a.nav-link:hover{
   color: #CBCBCB;
-  transition: 0.4s;
+  transition: 0.3s;
 }
 
 /* Provide sufficient contrast against white background */
@@ -139,8 +139,21 @@ input{
 
 .addTask:hover img{
   cursor: pointer;
-
+  filter: invert(53%) sepia(10%) saturate(975%) hue-rotate(206deg) brightness(90%) contrast(89%);
+  transition: 0.3s;
 }
 
-.addTask:hover{
+hr{
+  border-top: 0.5px solid #242239;
+}
+
+.btn{
+  background-color: #716D9C;
+  color: white;
+}
+
+.btn:hover{
+  background-color: #716D9C;
+  color: #CBCBCB;
+
 }

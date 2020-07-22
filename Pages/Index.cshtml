@@ -47,6 +47,11 @@
 }
     </tbody>
 </table>
+
+    <div class="addTask" >
+        <img width="24p" height="24" src="~/img/arrow.svg">
+    </div>
+
 <div class="form">
     <form method="post">
         <div asp-validation-summary="ModelOnly" class="text-danger"></div>
@@ -54,16 +59,11 @@
         <input asp-for="ToDoForm.name">
         <label asp-formaction="ToDoForm,creationDate">  @Html.DisplayNameFor(model => model.ToDoList[0].creationDate): </label>
         <input asp-for="ToDoForm.creationDate" type="date">
-        <input type="submit" value="Add" class="btn btn-primary" />
+        <input type="submit" value="Add" class="btn" />
         <span asp-validation-for="ToDoForm.creationDate" class="text-danger"></span>
     </form>
 </div>
-<p>
-    <div class="addTask" >
-        <img src="~/img/add-24px.svg">
-    </div>
-</p>
-
+<hr>
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
 }

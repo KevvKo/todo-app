@@ -8,9 +8,16 @@
 // adds for the add-button the possibility to show or hide the add-field for new to dos
 document.querySelector('.addTask').addEventListener('click', function(){
     let form = document.querySelector('.form')
-    
-    form.style.height == "" ? form.style.height = "50px" : form.style.height = ""
-    
+    let img = document.querySelector('.addTask img')
+
+    if(form.style.height == ""){
+
+        form.style.height = "50px"
+        img.src = "/img/chevron.svg"
+    }else{
+        form.style.height = ""
+        img.src = "/img/arrow.svg"
+    }   
 })
 
 //add the markCompleted-fct to all created checkboxes
