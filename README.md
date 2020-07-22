@@ -26,6 +26,7 @@ On click at the arrow, below the list, you can add a new To Do with a date, wher
 
 ### Edit To Do's
 Further, if you want to edit an ToDo, just click on the Edit-Link and you will be redirected to the edit-page, where you can do small changes on your ToDo.
+
 ![alt text](/examples/edit.png "Edit an existing To Do")
 
 ### Details
