@@ -91,11 +91,28 @@ body {
 /* styling for the index site
 --------------------------------------------------*/
 .form{
-  display: none;
+  height: 0;
+  overflow: hidden;
+  transition: 0.4s;
 }
 label{
   font-weight: bold;
 }
+
+.done-checkbox{
+  height: 20px;
+  width: 20px;
+  background-color: #eee;
+  border: none;
+  margin-left: 12px;
+}
+
+
+input[type="checkbox"]:hover  {
+  background-color: #716D9C;
+  cursor: pointer;
+}
+
 
 input{
   height: calc(1.5em + .75rem + 2px);
@@ -116,10 +133,14 @@ input{
   display: inline-block;
 }
 
-.addTask img{
+.addTasks img{
   filter: invert(10%) sepia(39%) saturate(797%) hue-rotate(206deg) brightness(97%) contrast(90%);
 }
 
-.addTask:hover{
+.addTask:hover img{
   cursor: pointer;
+
+}
+
+.addTask:hover{
 }

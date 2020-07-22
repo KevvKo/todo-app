@@ -9,6 +9,28 @@
 document.querySelector('.addTask').addEventListener('click', function(){
     let form = document.querySelector('.form')
     
-    form.style.display == "" ? form.style.display = "block" : form.style.display = ""
+    form.style.height == "" ? form.style.height = "50px" : form.style.height = ""
     
 })
+
+//add the markCompleted-fct to all created checkboxes
+let checkboxes = document.querySelectorAll('.done-checkbox')
+
+for(let i = 0, l = checkboxes.length; i < l; i++){
+    let checkbox = checkboxes[i]
+    checkbox.addEventListener('click', function(){
+        markCompleted(this)
+    })
+}
+
+//marking a checkbox as selected and submit a form
+function markCompleted(checkbox) {
+    checkbox.disabled = true;
+
+    let row = checkbox.closest('tr');
+    row.classList.add('done')
+
+    let form = checkbox.closest('form');
+    form.submit();
+}
+

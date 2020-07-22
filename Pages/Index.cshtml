@@ -13,19 +13,19 @@
     <thead>
         <tr>
             <th>
-                To Do's
+                @Html.DisplayNameFor(model => model.ToDoList[0].name)
             </th>
             <th>
-                to be done by
+                 @Html.DisplayNameFor(model => model.ToDoList[0].creationDate)
             </th>
             <th>
-                check
+                @Html.DisplayNameFor(model => model.ToDoList[0].isDone)
             </th>
             <th></th>
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model.ToDoItem) {
+@foreach (var item in Model.ToDoList) {
         <tr>
             <td>
                 @Html.DisplayFor(modelItem => item.name)
@@ -34,12 +34,14 @@
                 @Html.DisplayFor(modelItem => item.creationDate)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.isDone)
+                <form method="post">
+                    <input  type="checkbox" class="done-checkbox">
+                    <input asp-for="@item.id" type="hidden" name="id" value="@item.id">
+                </form>
             </td>
             <td>
                 <a asp-page="/ToDos/Edit" asp-route-id="@item.id">Edit</a> |
-                <a asp-page="/ToDos/Details" asp-route-id="@item.id">Details</a> |
-                <a asp-page="/ToDos/Delete" asp-route-id="@item.id">Delete</a>
+                <a asp-page="/ToDos/Details" asp-route-id="@item.id">Details</a>
             </td>
         </tr>
 }
@@ -47,11 +49,13 @@
 </table>
 <div class="form">
     <form method="post">
-        <label>To Do: </label>
-        <input>
-        <label> Deadline: </label>
-        <input type="date">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <label> @Html.DisplayNameFor(model => model.ToDoList[0].name): </label>
+        <input asp-for="ToDoForm.name">
+        <label asp-formaction="ToDoForm,creationDate">  @Html.DisplayNameFor(model => model.ToDoList[0].creationDate): </label>
+        <input asp-for="ToDoForm.creationDate" type="date">
         <input type="submit" value="Add" class="btn btn-primary" />
+        <span asp-validation-for="ToDoForm.creationDate" class="text-danger"></span>
     </form>
 </div>
 <p>
@@ -59,3 +63,7 @@
         <img src="~/img/add-24px.svg">
     </div>
 </p>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
