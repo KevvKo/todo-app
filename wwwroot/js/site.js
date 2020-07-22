@@ -6,6 +6,7 @@
 //index----------------------------------------------------------------------------------------------------------------------------
 
 // adds for the add-button the possibility to show or hide the add-field for new to dos
+//change the image-arrow
 document.querySelector('.addTask').addEventListener('click', function(){
     let form = document.querySelector('.form')
     let img = document.querySelector('.addTask img')
