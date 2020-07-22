@@ -16,10 +16,12 @@ dotnet run
 ## Examples
 ### Default UI
 This example shows the default layout from the ToDo-App with some entrys.
+
 ![alt text](/examples/default.png "Default UI")
 
 ### Add To Do
 On click at the arrow, below the list, you can add a new To Do with a date, where the ToDo must be done. Also, you can add a ToDo just with a date and no given description.
+
 ![alt text](/examples/add.png "Add a new To Do")
 
 **Hide:** To delete a ToDo, tick off the checkbox in the status column for the ToDo and it will be deleted.
@@ -31,4 +33,5 @@ Further, if you want to edit an ToDo, just click on the Edit-Link and you will b
 
 ### Details
 The details-overview shows you just the ToDo and the date, nothing more.
+
 ![alt text](/examples/details.png "Show details about a To Do")
