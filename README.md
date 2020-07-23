@@ -24,7 +24,7 @@ On click at the arrow, below the list, you can add a new To Do with a date, wher
 
 ![alt text](/examples/add.png "Add a new To Do")
 
-**Hide:** To delete a ToDo, tick off the checkbox in the status column for the ToDo and it will be deleted.
+**Hint:** To delete a ToDo, tick off the checkbox in the status column for the ToDo and it will be deleted.
 
 ### Edit To Do's
 Further, if you want to edit an ToDo, just click on the Edit-Link and you will be redirected to the edit-page, where you can do small changes on your ToDo.
