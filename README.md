@@ -1,5 +1,9 @@
 # ToDo-Webapplication
-
+##Table of Contents
+[Requirements](##requirements)
+[Getting started](##getting-started)
+[Examples](##examples)
+[Coming feature](##Coming-feature)
 ## Requirements
 - c#
 - .NET Core
@@ -35,3 +39,7 @@ Further, if you want to edit an ToDo, just click on the Edit-Link and you will b
 The details-overview shows you just the ToDo and the date, nothing more.
 
 ![alt text](/examples/details.png "Show details about a To Do")
+
+## Coming feature
+Extended UI, which shows the to do's for single weekday (sorted by date).
+Options to switch between **all to do's** or **to do's for a weekday**
